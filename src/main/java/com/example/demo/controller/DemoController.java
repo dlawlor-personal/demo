@@ -9,6 +9,6 @@ public class DemoController {
 
     @GetMapping("/index")
     public String hello () {
-        return "hello";
+        return "hello preview";
     }
 }
